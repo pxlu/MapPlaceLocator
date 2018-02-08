@@ -7,5 +7,7 @@
 
 ## Usage:
 
+1. `python main.py`
+2. Follow instructions on screen.
 
 
