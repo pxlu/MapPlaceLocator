@@ -32,7 +32,8 @@ def get_usr_choice(places_data):
   elif choice is 'A':
     print('Please enter an attribute to return for all places...')
     attr = input('>> ')
-    if attr in get_attr_list(places_data):
+    attr_list = get_attr_list(places_data)
+    if attr in attr_list[0]:
       pprint.pprint(places_list_attrs(places_data, attr))
     get_usr_choice(places_data)
   elif choice is 'E':
