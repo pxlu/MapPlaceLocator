@@ -1,9 +1,11 @@
 ## Installation:
 
-1. Install Python - https://www.python.org/downloads/
-2. In command line, type `python`. If version > 3.5.1, continue; 
+1. `git clone https://github.com/pxlu/MapPlaceLocator.git`
+2. Go to MapPlaceLocator directory
+3. Install Python - https://www.python.org/downloads/
+4. In command line, type `python`. If version > 3.5.1, continue; 
   Else, download a version > 3.5.1
-3. In command line, type `pip install -r requirements.txt`
+5. In command line, type `pip install -r requirements.txt`
 
 ## Usage:
 
